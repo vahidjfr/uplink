@@ -1,6 +1,7 @@
 # Link budget for downlink
 # GEO satellite
 import math
+import numpy
 fc_ghz = float(input("Enter a carrier frequency in GHZ: "))
 da_t = float(input("Enter a antenna diameter in Meter: "))
 eff_t = float(input("Enter a transmitter efficiency: "))
